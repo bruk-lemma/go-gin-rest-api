@@ -9,7 +9,6 @@ import (
 	"strconv"
 
 	"github.com/gin-gonic/gin"
-	//	"github.com/gin-gonic/gin/internal/json"
 	"github.com/joho/godotenv"
 	_ "github.com/lib/pq"
 )
@@ -71,12 +70,6 @@ func postAlbums(c *gin.Context) {
 		c.JSON(http.StatusOK, "album created successfully")
 	}
 
-	// var newAlbum album
-	// if err := c.BindJSON(&newAlbum); err != nil {
-	// 	return
-	// }
-	// albums = append(albums, newAlbum)
-	// c.IndentedJSON(http.StatusCreated, newAlbum)
 }
 
 func getAlbumByID(c *gin.Context) {
