@@ -1,0 +1,75 @@
+{
+  "sqltools.connections": [
+    {
+      "previewLimit": 50,
+      "server": "46.101.106.109",
+      "port": 5432,
+      "driver": "PostgreSQL",
+      "name": "mine",
+      "database": "postgres",
+      "username": "postgres"
+    },
+    {
+      "previewLimit": 50,
+      "server": "46.101.106.109",
+      "port": 5432,
+      "driver": "PostgreSQL",
+      "name": "nadn",
+      "database": "hr",
+      "username": "postgres"
+    },
+    {
+      "previewLimit": 50,
+      "server": "46.101.106.109",
+      "port": 5432,
+      "driver": "PostgreSQL",
+      "database": "postgres",
+      "username": "postgres",
+      "name": "qwdn"
+    },
+    {
+      "mysqlOptions": {
+        "authProtocol": "default",
+        "enableSsl": "Disabled"
+      },
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 3306,
+      "driver": "MySQL",
+      "name": "jagama",
+      "username": "some-mysql",
+      "database": "some-mysql"
+    },
+    {
+      "mysqlOptions": {
+        "authProtocol": "default",
+        "enableSsl": "Disabled"
+      },
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 3306,
+      "driver": "MySQL",
+      "name": "jagamaw",
+      "database": "Jagama",
+      "username": "root"
+    },
+    {
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 5432,
+      "driver": "PostgreSQL",
+      "name": "new-go",
+      "database": "go_gin",
+      "username": "postgres"
+    },
+    {
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 5432,
+      "driver": "PostgreSQL",
+      "name": "new-go-gin-db",
+      "database": "go_gin",
+      "username": "postgres"
+    }
+  ]
+}
